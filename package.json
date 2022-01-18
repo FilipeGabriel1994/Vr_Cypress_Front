@@ -1,0 +1,19 @@
+{
+    "name": "vr_cy_front",
+    "version": "1.0.0",
+    "description": "teste prático frontend em Cypress VR Beneficios",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx cypress open"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cypress": "^9.2.1",
+        "cypress-cucumber-preprocessor": "^4.3.1",
+        "cypress-localstorage-commands": "^1.5.0"
+    },
+    "cypress-cucumber-preprocessor": {
+        "step_definitions": "cypress/integration/features/**/"
+    }
+}

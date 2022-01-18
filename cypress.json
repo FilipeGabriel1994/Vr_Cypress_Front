@@ -1,0 +1,7 @@
+{
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "baseUrl": "https://www.vr.com.br/",
+    "testFiles": "**/*.{feature,features}",
+    "defaultCommandTimeout": 40000
+}
